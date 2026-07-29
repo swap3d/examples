@@ -1,0 +1,9 @@
+node_modules/
+.next/
+dist/
+*.glb
+*.gltf
+*.log
+.env
+.env.*
+!.env.example

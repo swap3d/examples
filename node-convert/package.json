@@ -1,0 +1,12 @@
+{
+  "name": "swap3d-example-node-convert",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "convert": "node index.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@swap3d/sdk": "^0.1.0"
+  }
+}

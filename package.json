@@ -1,0 +1,21 @@
+{
+  "name": "swap3d-examples",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "node-convert",
+    "batch-convert",
+    "nextjs-server-route"
+  ],
+  "scripts": {
+    "test": "npm run test --workspaces --if-present"
+  },
+  "overrides": {
+    "postcss": "8.5.24",
+    "sharp": "0.35.3"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "Apache-2.0"
+}
